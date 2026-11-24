@@ -9,8 +9,8 @@ npm run dev
 
 ## Layout
 
-- `src/` — your components, CSS modules and design tokens
-- `src/main.tsx` — entry point
+- `app/_components/` — your components, CSS modules and design tokens
+- `app/page.tsx` and `app/<route>/page.tsx` — one route per exported page
 - `theme.css`, `tokens.module.css` — variables read from your Framer project
 
 ## Notes
